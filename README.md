@@ -1,5 +1,5 @@
 # CF_SR
-This repository contains the code and data for the paper titled "Internal Placement: Job Recommender Systems with Similarity Regularization".
+This repository contains the code and data for the paper titled "Internal Placement: Job Recommender Systems with Similarity Regularization". To replicate the results as reported in the paper, run *'main notebook.ipynb'* and *'benchmark.ipynb'*
 
 #### main notebook.ipynb
 This notebook contains the main code for running CF and CF_SR. A table of contents is provided in the first cell.
