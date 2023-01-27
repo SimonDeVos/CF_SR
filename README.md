@@ -1,22 +1,21 @@
 # CF_SR
 This repository contains the code and data for the paper titled "Internal Placement: Job Recommender Systems with Similarity Regularization".
 
-CF_SR has the following structure:
-
 #### main notebook.ipynb
 This notebook contains the main code for running CF and CF_SR. A table of contents is provided in the first cell.
 With the current settings, the code generates results as reported in the paper. 
-Output is automatically written to **Results/results_{date}.txt**
+Output is automatically written to *Results/results_{date}.txt*
 
 #### benchmark.ipynb
 This notebook contains the code for testing benchmarking methods. A table of contents is provided in the first cell.
 The code generates results as reported in the paper for validation. 
-Output is automatically written to **Results/results_benchmark_{date}.txt**
+Output is automatically written to *Results/results_benchmark_{date}.txt*
 
 #### Data
 This folder contains two datasets. 
 1. **toy_example.csv** is a small synthetic dataset to check whether the user is able to run the notebooks. 
 2. **dataset_3.csv** is a novel, first-of-its-kind dataset we publish. It contains It is an adaptation of [this dataset](https://github.com/SimonDeVos/Anonymous_HR_event_log), where (i) ongoing job-employee matches are left out and (ii) performance metric y is added.
+
 	note: dataset_1 and dataset_2 are not publicly available.
 
 #### Results
