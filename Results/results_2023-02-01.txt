@@ -1,0 +1,52 @@
+
+start time experiment:2023-02-01 16:53:15.595000
+end time experiment:2023-02-01 17:51:23.310031
+time elapsed:0:58:07.715031
+
+1. DATASET
+Toy_data: False
+dataset_1: False
+dataset_2: False
+dataset_3: TrueV06
+
+cov_array_personal: V08
+
+2. Train/val/test split:
+test_size:0.25
+out_of_time:1
+one_in_train_val:1
+
+3. Hyperparameters:
+lambda_array: [0.01, 0.02, 0.05]
+beta_array: [0, 0.05, 0.1, 0.2, 0.5]
+alpha_array: [0.0001, 0.001]
+L_array: [5, 10, 15]
+steps_array: [500, 1000, 2000, 3000]
+
+optimal hyperpara CF:
+lambda: 0.05
+beta: 0
+alpha: 0.001
+L: 10
+steps: 1000
+
+optimal hyperpara CF+SR:
+lambda: 0.02
+beta: 0.1
+alpha: 0.001
+L: 5
+steps: 3000
+
+4. Results:
+
+results CF:
+mae_cf: 0.1347
+rmse_cf: 0.1961
+spearman_cf: 0.4055
+kendall_cf: 0.3508
+
+results CF+SR:
+mae_cf_sr: 0.1398
+rmse_cf_sr: 0.1794
+spearman_cf_sr: 0.596
+kendall_cf_sr: 0.5356

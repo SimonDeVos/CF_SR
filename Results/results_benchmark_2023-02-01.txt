@@ -1,0 +1,31 @@
+Results for benchmarking methods. 
+Start time experiment:2023-02-01 17:56:58.439340
+end time experiment:2023-02-01 18:06:40.478491
+time elapsed:0:09:42.039151
+
+Results on testset with svd: 
+Best params:{'n_factors': 50, 'n_epochs': 50, 'reg_pu': 0.001, 'reg_qi': 0.005}
+MAE:0.1557
+RMSE:0.1913
+SPEARMAN:0.3084
+KENDALL:0.2564
+
+Results on testset with knn: 
+Best params:{'k': 5, "min_k'": 1, 'sim_options': {'name': 'pearson', 'user_based': True}}
+MAE:0.1742
+RMSE:0.2077
+SPEARMAN:0.0621
+KENDALL:0.0493
+
+Results on testset with nmf: 
+Best params:{'n_factors': 100, 'n_epochs': 50, 'reg_pu': 0.05, 'reg_qi': 0.05}
+MAE:0.1645
+RMSE:0.2035
+SPEARMAN:0.2649
+KENDALL:0.2235
+
+Results on testset with slope: 
+MAE:0.1739
+RMSE:0.2168
+SPEARMAN:0.3088
+KENDALL:0.2682
