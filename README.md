@@ -29,10 +29,10 @@ Contains two images as reported in the paper.
 Folder where similarity matrices are stored and loaded.
 
 #### myFunctions.py
-This file contains all self-written methods to run the 'main notebook.ipynb'.
+This file contains all methods to run the 'main notebook.ipynb'.
 
 #### myFunctions_benchmark.py
-This file contains all self-written methods to run the 'benchmark.ipynb'.
+This file contains all methods to run the 'benchmark.ipynb'.
 
 #### requirements.txt
 
